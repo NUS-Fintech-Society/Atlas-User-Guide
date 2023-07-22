@@ -1,7 +1,8 @@
 {
   "index": "Introduction",
-  "another": "Another Page",
-  "advanced": "Advanced (A Folder)",
+  "authentication": "Registering Users",
+  "events": "Handling Events",
+  "tasks": "Task Management",
   "about": {
     "title": "About",
     "type": "page"

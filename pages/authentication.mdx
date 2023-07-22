@@ -1,0 +1,27 @@
+import { Cards, Card } from 'nextra/components'
+import { AiOutlineUserAdd, AiOutlineUsergroupAdd } from 'react-icons/ai'
+
+# Handling Users in Atlas
+
+## Roles
+
+Atlas contains 2 types of user roles.
+
+| User Role | Privileges                                                                       |
+| :-------- | :------------------------------------------------------------------------------- |
+| Admin     | Able to create, view, edit and delete <b>Users, Events, Tasks and Applicants</b> |
+| Non-admin | Able to view assigned tasks and events                                           |
+
+
+## Creating New Users
+<Cards>
+  <Card icon={<AiOutlineUserAdd />} title="Create Single User" href="/authentication/single_user" />
+  <Card icon={<AiOutlineUsergroupAdd />} title="Create Multiple Users" href="/authentication/multiple_users" />
+</Cards>
+
+## Updating User information
+
+All users can update their own information by accessing the profile page.
+
+You can edit the information of other users only if you are an admin. Simply click on the edit button next to the user's name on the dashbaord.
+
